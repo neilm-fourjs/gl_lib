@@ -64,6 +64,11 @@
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
   <Group label="gl_lib" language="Genero">
+    <Library binaryName="etc" excludeFromBuild="true" id="288665658" label="etc">
+      <File filePath="etc/default.4ad"/>
+      <File filePath="etc/default_GBC.4st"/>
+      <File filePath="etc/default_GDC.4st"/>
+    </Library>
     <Library binaryName="gl_grw" dependencies="875802101" externalDependencies="libgre.42x" id="545760" label="gl_grw">
       <File filePath="src/gl_grw.4gl"/>
       <File filePath="src/gl_grwCfg.per"/>
