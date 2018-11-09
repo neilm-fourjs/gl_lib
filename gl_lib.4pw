@@ -77,7 +77,6 @@
       <File filePath="src/genero_lib.inc"/>
       <File filePath="src/gl_db.4gl"/>
       <File filePath="src/gl_db.inc"/>
-      <File filePath="src/gl_encrypt.4gl"/>
       <File filePath="src/gl_gdcupd.4gl"/>
       <File filePath="src/gl_lib.4gl"/>
       <File filePath="src/gl_lib_aui.4gl"/>
@@ -87,6 +86,7 @@
       <File filePath="src/gl_lookup3.4gl"/>
     </Library>
     <Library binaryName="lib_secure" dependencies="875802101" id="-492719494" label="lib_secure">
+      <File filePath="src/gl_encrypt.4gl"/>
       <File filePath="src/lib_secure.4gl"/>
     </Library>
   </Group>
